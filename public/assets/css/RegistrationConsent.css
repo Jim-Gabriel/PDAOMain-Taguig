@@ -1,0 +1,154 @@
+header {
+    background-color: #ed1c24;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.filler-blue {
+    background-color: #1f479d; 
+    height: 10px; 
+}
+
+.filler-red {
+    background-color: #ed1c24; 
+    height: 10px; 
+    border-radius: 20px;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.header-text {
+    font-size: x-large;
+    margin-left: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+
+footer {
+
+    color: #1f479d;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 5px 0;
+}   
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.9)), url('Pictures/bg4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+
+
+
+
+.data-privacy-content {
+    background-color: #fff;
+    padding: 10px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+.data-privacy-content h1 {
+    font-size: large;
+    text-align: center;
+}
+
+.data-privacy-content p {   
+    max-width: 1000px; 
+    margin: 0 auto; 
+}
+
+
+
+
+.checkbox-container {
+    max-width: 1000px; 
+    margin: 0 auto;
+    padding: 10px; 
+    border: #000000 thin;
+}
+
+
+
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+
+
+
+.button-container button.no-consent-button {
+    background-color: #ed1c24;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.button-container button.no-consent-button:hover {
+    background-color: #881115;
+    transition: 0.5s;
+}
+
+
+.button-container button.continue-button {
+    background-color: #1f479d;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.button-container button.continue-button:hover {
+    background-color: #153069;
+    transition: 0.5s;
+}
+
+
+
+
+.consent {
+    font-style: italic;
+}
+

@@ -1,0 +1,132 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../images/bg/bg_2.svg');
+    background-size: cover; 
+    background-position: 100%;
+    background-repeat: no-repeat; 
+}
+
+
+.container-bg {
+    background-color: #ed1c24; 
+}
+
+
+.container-bg img {
+    width: 100px;
+    height: auto;   
+    background-size:auto;
+}
+
+
+.header-text {
+    font-size: 50px;    
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+    font-family: Arial, sans-serif; 
+}
+
+
+
+footer {
+    color: #1f479d;
+}
+
+
+
+.container .custom-bg {
+    background-image: url(assets/images/thinkbig/sunray.jpg);
+}
+
+
+.custom-bg-line-1{
+    background-image: linear-gradient(to right, #1f479d, #f4c027);
+    min-height: 10px;
+}
+
+
+
+.text-justify
+    {
+        text-align: justify;
+        font-size: large;
+    }
+
+
+.custom-bg-2 {
+    background-image: url(../images/thinkbig/sunray.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+input[type="search"],
+input[type="url"],
+input[type="color"],
+select {
+    box-shadow: 2px 2px #808080;
+}
+
+
+
+
+
+
+
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+
+
+
+.button-container button.no-consent-button {
+    background-color: #ed1c24;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.button-container button.no-consent-button:hover {
+    background-color: #881115;
+    transition: 0.5s;
+}
+
+
+.button-container button.continue-button {
+    background-color: #1f479d;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.button-container button.continue-button:hover {
+    background-color: #112655;
+    transition: 0.5s;
+}   
