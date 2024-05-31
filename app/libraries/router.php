@@ -26,9 +26,9 @@ class Router
 			unset($URL[0]);
 		}else{
 
-			$filename = "../app/controller/_404.php";
+			$filename = "../app/controller/err.php";
 			require $filename;
-			$this->controller = "_404";
+			$this->controller = "Err";
 		}
 
 		$controller = new $this->controller;
